@@ -87,6 +87,7 @@ helix
 swappy
 swww
 swaylock
+dolphin
 google-chrome
 ttf-times-new-roman
 rar
