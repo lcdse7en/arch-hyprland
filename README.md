@@ -9,7 +9,7 @@ sudo pacman -S reflector
 reflector --country China --age 72 --sort rate --protocol https --save /etc/pacman.d/mirrorlist
 ```
 
-#### 2. archlinuxcn
+#### 3. archlinuxcn
 
 ```/etc/pacman.conf
 [archlinuxcn]
@@ -17,14 +17,14 @@ SigLevel = Optional TrustAll
 Server = https://mirrors.tuna.tsinghua.edu.cn/archlinuxcn/\$arch
 ```
 
-#### 2. openssh
+#### 3. openssh
 
 ```shell
 ssh-keygen -t rsa
 cat ~/.ssh/id_rsa.pub
 ```
 
-#### 2. Pacman packages
+#### 4. Pacman packages
 
 zsh
 openssh
@@ -53,6 +53,7 @@ neofetch
 fastfetch
 ttf-jetbrains-mono-nerd
 ttf-firacode-nerd
+ttf-fira-code
 ttf-jetbrains-mono-nerd
 ttf-linux-libertine
 ttf-ibm-plex
@@ -77,7 +78,7 @@ gimp
 scribus
 helix
 
-#### 3. Yay Packages
+#### 5. Yay Packages
 
 swappy
 swww
