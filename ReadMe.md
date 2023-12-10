@@ -37,6 +37,7 @@ lazygit
 plocate
 zathura
 lf
+ueberzugpp
 joshuto
 kitty
 wezterm
