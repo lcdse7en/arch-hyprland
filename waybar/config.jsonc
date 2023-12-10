@@ -19,7 +19,10 @@
     "hyprland/workspaces",
     "hyprland/window",
     "custom/r_end",
-    "custom/padd"
+    "custom/padd",
+    "custom/l_end",
+    "mpd",
+    "custom/r_end"
   ],
   "modules-center": [
     "custom/padd",
