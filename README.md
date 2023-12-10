@@ -2,6 +2,13 @@
 
 [hyprdots](https://github.com/prasanthrangan/hyprdots)
 
+#### 2. reflector
+
+```shell
+sudo pacman -S reflector
+reflector --country China --age 72 --sort rate --protocol https --save /etc/pacman.d/mirrorlist
+```
+
 #### 2. archlinuxcn
 
 ```/etc/pacman.conf
