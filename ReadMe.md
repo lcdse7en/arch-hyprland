@@ -86,6 +86,9 @@ blender
 gimp
 scribus
 helix
+odt2txt
+transmission-cli
+gnumeric
 
 #### 5. Yay Packages
 
