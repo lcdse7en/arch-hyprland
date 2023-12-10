@@ -40,6 +40,7 @@ lf
 joshuto
 kitty
 dunst
+pamixer
 mako
 wofi
 nsxiv
