@@ -41,6 +41,7 @@ ueberzugpp
 joshuto
 kitty
 wezterm
+cronie
 dunst
 mako
 wofi
