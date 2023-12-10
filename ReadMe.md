@@ -20,11 +20,14 @@ SigLevel = Optional TrustAll
 Server = https://mirrors.tuna.tsinghua.edu.cn/archlinuxcn/\$arch
 ```
 
-#### 3. openssh
+#### 3. openssh & gitconfig
 
 ```shell
 ssh-keygen -t rsa
 cat ~/.ssh/id_rsa.pub
+
+git config --global user.name lcdse7en
+git config --global user.email 2353442022@qq.com
 ```
 
 #### 4. Pacman packages
