@@ -86,6 +86,9 @@ helix
 
 swappy
 swww
+
+<!-- swaybg -->
+
 swaylock
 dolphin
 google-chrome
