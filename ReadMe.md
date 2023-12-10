@@ -20,6 +20,13 @@ SigLevel = Optional TrustAll
 Server = https://mirrors.tuna.tsinghua.edu.cn/archlinuxcn/\$arch
 ```
 
+#### 4. sudoers
+
+```shell
+sed -i 's/^# %wheel ALL=(ALL) ALL/%wheel ALL=(ALL:ALL) ALL/' /etc/sudoers
+sed -i 's/^# %wheel ALL=(ALL:ALL) NOPASSWD: ALL%/%wheel ALL=(ALL:ALL) NOPASSWD: ALL/' /etc/sudoers
+```
+
 #### 3. openssh & gitconfig
 
 ```shell
