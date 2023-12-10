@@ -39,6 +39,7 @@ zathura
 lf
 joshuto
 kitty
+wezterm
 dunst
 mako
 wofi
