@@ -1,3 +1,5 @@
+<!-- Install archlinux: archinstall -->
+
 #### 1. arch-hyprland
 
 [hyprdots](https://github.com/prasanthrangan/hyprdots)
