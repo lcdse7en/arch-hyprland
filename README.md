@@ -15,6 +15,7 @@ lf
 joshuto
 kitty
 dunst
+wofi
 nsxiv
 ripgrep
 autojump
