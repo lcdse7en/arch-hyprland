@@ -40,6 +40,7 @@ lf
 joshuto
 kitty
 dunst
+mako
 wofi
 nsxiv
 ripgrep
