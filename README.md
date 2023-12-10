@@ -14,6 +14,7 @@ zathura
 lf
 joshuto
 kitty
+dunst
 nsxiv
 ripgrep
 autojump
@@ -55,6 +56,9 @@ helix
 
 #### 3. Yay Packages
 
+swappy
+swww
+swaylock
 google-chrome
 ttf-times-new-roman
 rar
