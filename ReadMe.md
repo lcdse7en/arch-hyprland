@@ -40,7 +40,6 @@ lf
 joshuto
 kitty
 dunst
-pamixer
 mako
 wofi
 nsxiv
@@ -74,6 +73,8 @@ npm
 mpv
 mpc
 mpd
+cava
+pamixer
 ncmpcpp
 redis
 kdenlive
