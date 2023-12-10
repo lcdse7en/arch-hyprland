@@ -2,7 +2,8 @@
 
 #### 1. arch-hyprland
 
-[hyprdots](https://github.com/prasanthrangan/hyprdots)
+[install-hyprland]()
+[hyprland-config](https://github.com/prasanthrangan/hyprdots)
 
 #### 2. reflector
 
@@ -91,4 +92,3 @@ rar
 qqmusic-bin
 obs-studio
 transmission-remote-gui
-
