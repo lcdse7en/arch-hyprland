@@ -2,7 +2,7 @@
 
 #### 1. arch-hyprland
 
-[install-hyprland]()
+[install-hyprland](https://github.com/JaKooLit/Hyprland-v3)
 [hyprland-config](https://github.com/prasanthrangan/hyprdots)
 
 #### 2. reflector
