@@ -35,6 +35,10 @@
   "modules-right": [
     "custom/padd",
     "custom/l_end",
+    "custom/weather",
+    "custom/r_end",
+    "custom/padd",
+    "custom/l_end",
     "cpu",
     "memory",
     "custom/gpuinfo",
@@ -143,6 +147,17 @@
       "on-scroll-up": "shift_up",
       "on-scroll-down": "shift_down"
     }
+  },
+
+  // weather-custom
+  "custom/weather": {
+    "format": "{}",
+    "format-alt": "{alt}: {}",
+    "format-alt-click": "click-right",
+    "interval": 1800,
+    "return-type": "json",
+    "exec": "~/.config/hypr/scripts/weather.sh",
+    "exec-if": "ping wttr.in -c1"
   },
 
   "cpu": {
