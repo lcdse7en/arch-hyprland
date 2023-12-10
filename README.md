@@ -8,6 +8,7 @@ zsh
 openssh
 stow
 bat
+lazygit
 plocate
 zathura
 lf
