@@ -2,6 +2,21 @@
 
 [hyprdots](https://github.com/prasanthrangan/hyprdots)
 
+#### 2. archlinuxcn
+
+```/etc/pacman.conf
+[archlinuxcn]
+SigLevel = Optional TrustAll
+Server = https://mirrors.tuna.tsinghua.edu.cn/archlinuxcn/\$arch
+```
+
+#### 2. openssh
+
+```shell
+ssh-keygen -t rsa
+cat ~/.ssh/id_rsa.pub
+```
+
 #### 2. Pacman packages
 
 zsh
