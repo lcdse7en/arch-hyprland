@@ -2,14 +2,16 @@
 
 [hyprdots](https://github.com/prasanthrangan/hyprdots)
 
-#### 2. packages
+#### 2. Pacman packages
 
 zsh
 openssh
+stow
 bat
 plocate
 zathura
 lf
+joshuto
 kitty
 nsxiv
 ripgrep
@@ -31,6 +33,7 @@ ttf-linux-libertine
 ttf-ibm-plex
 udiskie
 numlockx
+ffmpegthumbnailer
 vivid
 libreoffice
 okular
@@ -41,4 +44,20 @@ mpv
 mpc
 mpd
 ncmpcpp
+redis
+kdenlive
+breeze
+blender
+gimp
+scribus
+helix
+
+#### 3. Yay Packages
+
+google-chrome
+ttf-times-new-roman
+rar
+qqmusic-bin
+obs-studio
+transmission-remote-gui
 
