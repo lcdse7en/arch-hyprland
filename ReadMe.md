@@ -102,6 +102,24 @@ gnumeric
 
 #### 5. Yay Packages
 
+oh-my-zsh-git
+zsh-theme-powerlevel10k-git
+zsh-syntax-highlighting-git
+zsh-autosuggestions-git
+pokemon-colorscripts-git
+
+```shell
+chsh -s $(which zsh)
+```
+
+pamac-aur
+kde-rounded-corners
+latte-dock-git
+spotify-adblock
+spicetify-cli
+spicetify-themes-git
+goverlay
+
 swappy
 swww
 
@@ -115,3 +133,43 @@ rar
 qqmusic-bin
 obs-studio
 transmission-remote-gui
+
+#### 6. fonts
+
+```shell
+mkdir ~/.local/share/fonts/
+tar -xvzf ~/dotfiles/source/fonts/Font_CascadiaCove.tar.gz -C ~/.local/share/fonts/
+tar -xvzf ~/dotfiles/source/fonts/Font_MononokiNerd.tar.gz -C ~/.local/share/fonts/
+tar -xvzf ~/dotfiles/source/fonts/Font_JetBrainsMono.tar.gz -C ~/.local/share/fonts/
+sudo tar -xvzf ~/dotfiles/source/fonts/Font_UzumasaMini.tar.gz -C /usr/share/fonts/
+
+fc-cache -vf
+fc-list
+```
+
+#### 7. sddm
+
+```shell
+tar -xvzf ~/dotfiles/source/fonts/Sddm_Corners.tar.gz -C -C /usr/share/sddm/themes/
+sudo cp /etc/sddm.conf.d/kde_settings.conf /etc/sddm.conf.d/kde_settings.bkp
+sudo sed -i "/^Current=/c\Current=corners" /etc/sddm.conf.d/kde_settings.conf
+```
+
+#### rofi
+
+```shell
+sudo cp ~/dotfiles/rofi/.config/rofi/cat_*.rasi /usr/share/rofi/themes/
+```
+
+#### 8. firefox
+
+```shell
+FoxRel=`ll ~/.mozilla/firefox/ | grep .default-release | awk '{print $NF}'`
+mkdir ~/.mozilla/firefox/${FoxRel}/chrome
+cp ~/dotfiles/source/t2_firefox.css ~/.mozilla/firefox/${FoxRel}/chrome/userChrome.css
+
+// about:profiles
+// about:config
+ -> toolkit.legacyUserProfileCustomizations.stylesheets - true
+ -> browser.tabs.tabmanager.enabled - false
+```
